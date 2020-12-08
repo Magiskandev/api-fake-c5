@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/devoscarmesa/api-fake-mediatecapp#readme",
   "dependencies": {
+    "faker": "^5.1.0",
     "json-server": "^0.16.2",
     "vercel": "^20.1.2"
   }
