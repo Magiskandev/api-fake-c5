@@ -2,6 +2,8 @@
 /* eslint-disable import/no-extraneous-dependencies */
 const Faker = require("faker");
 
+Faker.locale = 'es_MX'
+
 module.exports = () => {
     const data = {
         "clases": [
@@ -283,14 +285,14 @@ module.exports = () => {
                 "id": "1",
                 "documento": "1152188863",
                 "tipo_documento": "CC",
-                "nombres": "Oscar",
-                "apellidos": "Mesa",
+                "nombres": Faker.name.firstName,
+                "apellidos": Faker.name.lastName,
                 "contrasena": "34c958e8afa723e3806b37fffa2d64d2ee0ceef9",
                 "correo": "oscarmesa.elpoli@elpoli.edu.co",
                 "telefono_celular": "3023458976",
                 "numero_expediente": null,
                 "genero": "hombre",
-                "fecha_nacimiento": "1999-10-09",
+                "fecha_nacimiento": Faker.date.soon,
                 "estado_actor_id": "1",
                 "institucion_id": null,
                 "tipo_actor_id": "2",
@@ -391,7 +393,7 @@ module.exports = () => {
         "peliculas": [
             {
                 "id": 1,
-                "nombre": "test",
+                "nombre": Faker.lorem.words,
                 "genero": "test"
             },
             {
@@ -400,6 +402,6 @@ module.exports = () => {
                 "genero": "test"
             }
         ]
-    }
+    };
     return data;
 };

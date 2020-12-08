@@ -1,5 +1,5 @@
 {
-  "name": "api-fake-mediatecapp",
+  "name": "api-fake",
   "version": "1.0.0",
   "description": "Esta aplicación es una api-fake que se desarrolla para poder extraer datos de un BackEnd y de esta manera lograr la implementación de los servicios que se exponen desde este componente y puedan ser consumidos a través de fetch en el FrontEnd",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devoscarmesa/api-fake-mediatecapp.git"
+    "url": "git+https://github.com/agileinnova/api-fake-c5.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/devoscarmesa/api-fake-mediatecapp/issues"
+    "url": "https://github.com/agileinnova/api-fake-c5/issues"
   },
-  "homepage": "https://github.com/devoscarmesa/api-fake-mediatecapp#readme",
+  "homepage": "https://github.com/agileinnova/api-fake-c5#readme",
   "dependencies": {
     "faker": "^5.1.0",
     "json-server": "^0.16.2",
